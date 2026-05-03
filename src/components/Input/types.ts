@@ -1,15 +1,3 @@
-export type ButtonVariant = 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info';
-export type ButtonSize = 'small' | 'medium' | 'large';
-
-export interface ButtonProps {
-  variant?: ButtonVariant;
-  size?: ButtonSize;
-  type?: 'button' | 'submit' | 'reset';
-  disabled?: boolean;
-  ariaLabel?: string;
-  cssVariables?: Record<string, string>;
-}
-
 export type InputType = 'text' | 'email' | 'password' | 'number' | 'tel' | 'url' | 'search';
 export type InputSize = 'small' | 'medium' | 'large';
 
