@@ -1,15 +1,62 @@
 /**
  * @primitivekit/vue
- * Version: 0.0.2
+ * Version: 0.1.0
  * 
  * Primitive Vue 3 components with zero hardcoded values.
  * Fully customizable via CSS variables.
  */
 
-export { default as Button } from './components/Button/Button.vue';
-export type { ButtonProps, ButtonVariant, ButtonSize } from './components/Button/types';
+// Form Components
+export { Button } from './components/Button';
+export { Input } from './components/Input';
+export { Textarea } from './components/Textarea';
+export { Select } from './components/Select';
+export { Checkbox } from './components/Checkbox';
+export { Radio } from './components/Radio';
+export { Switch } from './components/Switch';
 
-export { default as Input } from './components/Input/Input.vue';
-export type { InputProps, InputType, InputSize } from './components/Input/types';
+// Layout Components
+export { Card } from './components/Card';
+export { Container } from './components/Container';
+export { Stack } from './components/Stack';
+export { Grid } from './components/Grid';
+export { Divider } from './components/Divider';
+export { Space } from './components/Space';
 
-export const version = '0.0.2';
+// Feedback Components
+export { Badge } from './components/Badge';
+export { Spinner } from './components/Spinner';
+export { Alert } from './components/Alert';
+export { Progress } from './components/Progress';
+export { Skeleton } from './components/Skeleton';
+
+// Navigation Components
+export { Link } from './components/Link';
+export { Tabs } from './components/Tabs';
+export { Breadcrumb } from './components/Breadcrumb';
+
+// Overlay Components
+export { Modal } from './components/Modal';
+export { Tooltip } from './components/Tooltip';
+export { Popover } from './components/Popover';
+export { Dropdown } from './components/Dropdown';
+
+// General Components
+export { Typography } from './components/Typography';
+
+// Data Display Components
+export { Avatar } from './components/Avatar';
+export { Tag } from './components/Tag';
+export { Empty } from './components/Empty';
+export { Image } from './components/Image';
+export { Collapse } from './components/Collapse';
+export { Drawer } from './components/Drawer';
+export { Menu } from './components/Menu';
+export { Pagination } from './components/Pagination';
+export { Steps } from './components/Steps';
+export { Form } from './components/Form';
+export { Slider } from './components/Slider';
+export { Upload } from './components/Upload';
+export { Table } from './components/Table';
+
+export const version = '0.1.0';
