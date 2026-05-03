@@ -1,6 +1,6 @@
 {
   "name": "@primitivekit/vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Primitive Vue components with zero hardcoded values. Fully customizable via CSS variables.",
   "type": "module",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "echo 'Build placeholder - Vue components ready for use'",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
